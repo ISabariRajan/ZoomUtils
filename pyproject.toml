@@ -20,11 +20,10 @@ readme = "README.md"
 license = {file = "LICENSE"}
 requires_-python = ">=3.8"
 dependencies = [
-    "selenium",
-    "webdriver_manager"
+    "bs4", "requests"
 ]
 long_description = "Zoom utils"
 long_description_content_type = "text/markdown"
 
 [tool.hatch.version]
-path = "Zoom_Utils/__about__.py"
+path = "__about__.py"
